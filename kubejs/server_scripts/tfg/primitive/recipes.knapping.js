@@ -312,6 +312,17 @@ function registerTFGKnappingRecipes(event) {
 		.outsideSlotRequired(false)
 		.id('tfg:rock_knapping/flint_pickaxe_head')
 
+		event.recipes.tfc.knapping('2x gtceu:flint_pickaxe_head', 'tfg:flint', [
+		" XXX ",
+		"X   X",
+		"     ",
+		" XXX ",
+		"X   X"
+	])
+		.ingredient('minecraft:flint')
+		.outsideSlotRequired(false)
+		.id('tfg:rock_knapping/flint_pickaxe_head_2')
+	
 	event.recipes.tfc.knapping('gtceu:flint_sword_head', 'tfg:flint', [
 		"XX   ",
 		"XXX  ",
