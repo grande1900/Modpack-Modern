@@ -1341,6 +1341,7 @@
 					id: "09A674FE4BA67280"
 					item: "toolbelt:pouch"
 					optional_task: true
+					Count: 7
 					type: "item"
 				}
 			]
